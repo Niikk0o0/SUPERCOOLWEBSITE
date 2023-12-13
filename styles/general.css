@@ -1,0 +1,9 @@
+body{
+  background-image:url('../sliki/snow_2.gif');
+  background-size:170px;
+}
+p{
+  color: white;
+  font-family: comica;
+  font-size:x-large;
+}

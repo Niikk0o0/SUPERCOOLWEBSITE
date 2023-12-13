@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'comica';
+  src: url('../fonts/comicneuesansid/ComicNeueSansID.ttf');
+}
+
+@font-face {
+  font-family: 'giga';
+  src: url('../fonts/giants_2/Giants.ttf');
+}
+
+
+@font-face {
+  font-family: bubble3d;
+  src: url('../fonts/bubble3d/Bubble3D.ttf');
+}
+
+@font-face {
+  font-family: neon_2 ;
+  src: url('../fonts/neon_3/Neon.ttf');
+}
+
+@font-face {
+  font-family: gameplay;
+  src: url('../fonts/gameplay/Gameplay.ttf');
+}
+
+
+@font-face {
+  font-family: sega;
+  src: url('../fonts/sega/SEGA.TTF');
+}
+
+@font-face {
+  font-family: spooky;
+  src: url('../fonts/misfits/MISFITS_.TTF');
+}

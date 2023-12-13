@@ -1,0 +1,23 @@
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+
+}
+.navbar a{
+  font-family: 'neon_2';
+  font-size: 20px;
+  float:left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 50px;
+  text-decoration: none;
+
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar a.active {
+  background-color: #ffffff;
+  color: rgb(54, 8, 181);
+}

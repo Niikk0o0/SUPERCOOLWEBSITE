@@ -1,0 +1,77 @@
+.home-gif {
+  height: 80px;
+  width: 230px;
+  display: flex;
+  flex: 1;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.meow-gif {
+  width: 200px;
+  cursor: grab;
+}
+
+
+.l-top-text {
+  border-style: solid;
+  border-color: rgb(0, 132, 255);
+  width: 600px;
+  font-family: comica;
+}
+
+.mycats-gif {
+  position: absolute;
+  transform: translate(360px, -100px) rotate(10deg);
+  width: 150px;
+}
+
+.mycats-caption {
+  color: white;
+  position: absolute;
+  transform: translate(390px, 45px) rotate(10deg);
+  font-family: neon;
+}
+
+
+.l-mid-text {
+  border-style: solid;
+  border-color: rgb(0, 132, 255);
+  width: 600px;
+  font-family: comica;
+  padding-top: 30px;
+}
+
+.l-bottom-text {
+  border-style:dashed;
+  border-color: rgb(0, 132, 255);
+  width: 600px;
+  font-family: comica;
+}
+
+
+.left-side {
+  float: left;
+}
+
+.right-side {
+  float: right;
+}
+
+.r-top-text {
+  border-style: double;
+  border-width: 10px;
+  border-color: rgb(146, 146, 146);
+  width: 350px;
+  height: auto;
+  font-family: comica;
+}
+
+.r-portal {
+  border-style: solid;
+  border-width: 10px;
+  border-top-color: #16DB93;
+    border-bottom-color: #A4036F;
+    border-left-color: #EFEA5A;
+    border-right-color: #FE5E41;
+}
