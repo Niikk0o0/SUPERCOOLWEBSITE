@@ -1,0 +1,38 @@
+img {
+  width: 400px;
+}
+
+.art-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 140px;
+  margin-top: 80px;
+}
+
+p {
+color: rgb(255, 0, 153);
+font-family: comica;
+font-size:xx-large;
+margin: 0;
+}
+
+figure {
+display: inline-block;
+margin: 20px;
+}
+
+figure figcaption {
+  border: 3px dotted rgb(255, 0, 153);
+  text-align: center;
+}
+
+.home-gif {
+  height: 160px;
+  width: 410px;
+  display: flex;
+  flex: 1;
+  margin-right: auto;
+  margin-left: auto;
+}
