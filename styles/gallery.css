@@ -25,6 +25,10 @@ margin: 20px;
 
 figure figcaption {
   border: 3px dotted rgb(255, 0, 153);
+  color: rgb(255, 0, 153);
+  font-family: comica;
+  font-size:xx-large;
+  margin: 0;
   text-align: center;
 }
 
