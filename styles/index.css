@@ -1,3 +1,7 @@
+body {
+  zoom: 100%;
+}
+
 .home-gif {
   height: 80px;
   width: 230px;
@@ -12,6 +16,19 @@
   cursor: grab;
 }
 
+.mycats-gif {
+  position: absolute;
+  transform: translate(420px, -30px) rotate(10deg);
+  width: 150px;
+}
+
+.mycats-caption {
+  color: rgb(240, 20, 156);
+  position: absolute;
+  transform: translate(460px, 115px) rotate(10deg);
+  font-family: neon;
+  font-weight: bold;
+}
 
 .l-top-text {
   border-style: solid;
@@ -19,20 +36,6 @@
   width: 600px;
   font-family: comica;
 }
-
-.mycats-gif {
-  position: absolute;
-  transform: translate(360px, -100px) rotate(10deg);
-  width: 150px;
-}
-
-.mycats-caption {
-  color: white;
-  position: absolute;
-  transform: translate(390px, 45px) rotate(10deg);
-  font-family: neon;
-}
-
 
 .l-mid-text {
   border-style: solid;
@@ -54,9 +57,27 @@
   float: left;
 }
 
-.right-side {
-  float: right;
+.middle {
+  float: inline-start;
 }
+
+.right-side {
+  float: inline-end;
+}
+
+.middle-bottom-text {
+  border-style:dashed;
+  border-color: rgb(255, 0, 238);
+  width: 280px;
+  height: 99px;
+  font-family: comica;
+  display: inline-block;
+  transform: translate( -3px, 500px);
+}
+.middle-bottom-text p { 
+  margin: 0;
+}
+
 
 .r-top-text {
   border-style: double;
@@ -71,7 +92,7 @@
   border-style: solid;
   border-width: 10px;
   border-top-color: #16DB93;
-    border-bottom-color: #A4036F;
-    border-left-color: #EFEA5A;
-    border-right-color: #FE5E41;
+  border-bottom-color: #A4036F;
+  border-left-color: #EFEA5A;
+  border-right-color: #FE5E41;
 }

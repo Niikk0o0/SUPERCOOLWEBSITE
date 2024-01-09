@@ -30,3 +30,19 @@ const handleIncrement = () => {
   }
 };
 incrementCount.addEventListener("click", handleIncrement);
+
+
+//portal
+
+const incrementCount2 = document.getElementById("increment-count2");
+var count2 = 0;
+
+const handleIncrement2 = () => {
+  count2++;
+  if (count2==2)
+  {
+    window.open('./loading/loading_portal.html', '_self');
+    count2 = 0;
+  }
+};
+incrementCount2.addEventListener("click", handleIncrement2);
