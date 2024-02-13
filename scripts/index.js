@@ -46,3 +46,19 @@ const handleIncrement2 = () => {
   }
 };
 incrementCount2.addEventListener("click", handleIncrement2);
+
+
+//button
+
+var button = document.getElementById('button1');
+
+button.onmouseover=function(){
+    var x = Math.floor(Math.random()*900);
+    var y = Math.floor(Math.random()*1400);
+    button.style.top = x + 'px';
+    button.style.left = y + 'px';
+};
+
+function bopen() {
+  window.open("./my_stars.html")
+}

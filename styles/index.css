@@ -52,6 +52,16 @@ body {
   font-family: comica;
 }
 
+#button1 {
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  top: 20px;
+  left: 1800px;
+  transition: all 0.05s;
+  width: 90px;
+}
+
 
 .left-side {
   float: left;
